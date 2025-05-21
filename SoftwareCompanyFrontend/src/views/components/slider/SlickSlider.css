@@ -1,0 +1,74 @@
+.custom-arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .left-arrow {
+    left: -50px;
+  }
+  
+  .right-arrow {
+    right: -50px;
+  }
+
+
+  .custom-arrows {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom:-52px; 
+    z-index: 10;
+    cursor: pointer;
+    transform: translateY(0); 
+    padding: 11px;
+  }
+  
+  .left-arrows {
+    left: 50%; 
+    transform: translateX(-100%); 
+  }
+  
+  .right-arrows {
+    right: 50%; 
+    transform: translateX(100%); 
+  }
+  
+  @media (max-width: 767px) {
+    .custom-arrow {
+      width: 30px;
+      height: 30px;
+  }
+
+  .left-arrow {
+      left: -18px;
+      display: none;
+  }
+
+  .right-arrow {
+      right: -18px;
+      display: none;
+  }
+
+  .custom-arrows {
+      width: 70px;
+      height: 30px;
+      bottom: -40px;
+      padding: 8px;
+  }
+
+  .left-arrows {
+      left: 50%; 
+      transform: translateX(-90%);
+  }
+
+  .right-arrows {
+      right: 50%; 
+      transform: translateX(90%);
+  }
+
+  }

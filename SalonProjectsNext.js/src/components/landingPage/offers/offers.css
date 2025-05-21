@@ -1,0 +1,5 @@
+.clipPathCustom::before {
+  background-image: url("../../../assests//images/Ellipse\ 7.png");
+  height: 300px;
+  width: auto;
+}
