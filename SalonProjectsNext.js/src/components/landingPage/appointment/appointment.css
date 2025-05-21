@@ -1,0 +1,26 @@
+.appointment-image {
+  background-image: url("../../../assests/images/app.png");
+  height: 550px;
+  width: auto;
+}
+
+/* .appointment-container {
+  padding: 0 0 0 0;
+} */
+
+
+@media (max-width: 768px) {
+  .appointment-image {
+    height: auto;          
+    background-size: contain; 
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 480px) {
+  .appointment-image {
+    height: 300px;         
+    width: 100%;
+  }
+}
+

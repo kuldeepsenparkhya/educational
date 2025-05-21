@@ -1,0 +1,128 @@
+.banner-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.banner-img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+.character {
+  top: 13px;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.monitor {
+  top: -80px;
+  left: 1%;
+  height: 498px;
+  width: auto;
+}
+
+.drone {
+  top: -12px;
+  right: 31px;
+}
+
+.vrr {
+  bottom: 40px;
+  left: 30px;
+  background-color: none !important;
+}
+
+.phone {
+  bottom: 40px;
+  right: 0;
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+
+@media (max-width: 767px) {
+  .banner-container {
+    height: 380px;
+  }
+
+  .character {
+    left: 17%;
+    top: 10px;
+    width: 130px;
+  }
+
+  .monitor {
+    top: -40px;
+    left: 5%;
+    height: 300px;
+  }
+
+  .drone {
+    top: 0px;
+    right: 0px;
+    width: 85px;
+  }
+
+  .vrr {
+    left: 9px;
+    bottom: 86px;
+    width: 100px;
+  }
+
+  .phone {
+    right: 3px;
+    bottom: 105px;
+    width: 87px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-container {
+    height: 450px;
+  }
+
+  .character {
+    left: 30%;
+    width: 150px;
+  }
+
+  .monitor {
+    height: 420px;
+  }
+
+  .drone {
+    right: 20px;
+    width: 90px;
+  }
+
+  .vrr {
+    left: 20px;
+    width: 90px;
+  }
+
+  .phone {
+    width: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-container {
+    height: 500px;
+  }
+
+  .character {
+    width: auto;
+  }
+
+  .monitor {
+    height: 498px;
+  }
+
+  .drone,
+  .vrr,
+  .phone {
+    width: auto;
+  }
+}

@@ -1,0 +1,44 @@
+.testimonial-cards {
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  .testimonial-cards::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: #33D3D4;
+    border-radius: 5px;
+    margin-left: -1.5px;
+  }
+  
+  .testimonial-cards .card {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  /* .testimonial-cards .card::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    border: 2px solid #fff;
+  } */
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  

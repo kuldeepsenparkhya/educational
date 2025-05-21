@@ -1,0 +1,35 @@
+.timeline {
+    position: relative;
+    border: none !important;
+    padding: 20px 0;
+  }
+  
+  .timeline .listGroup .Item{
+    
+  }
+  
+  .timeline .card {
+    position: relative;
+    margin-left: 40px;
+  }
+  
+  .timeline .card::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 108px;
+    width: 7px;
+    height: 120px;
+    border-radius: 39%;
+    background: #33D3D4;
+    border: 2px solid #fff;
+  }
+
+  .timeline .card .card-body {
+    border: none !important;
+  }
+  
+  .list-icon {
+    margin-right: 10px;
+    color: #33D3D4; 
+  }
